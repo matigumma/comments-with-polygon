@@ -32,3 +32,4 @@ const Comments: React.FunctionComponent<CommentsProps> = ({ topic }) => {
 };
 
 export default Comments;
+        
