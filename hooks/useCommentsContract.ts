@@ -21,6 +21,7 @@ const useCommentsContract = () => {
   // An ethers.Signer instance associated with the signed-in wallet.
   // https://docs.ethers.io/v5/api/signer/
   const [signer] = useSigner();
+
   // An ethers.Provider instance. This will be the same provider that is  
   // passed as a prop to the WagmiProvider.
   const provider = useProvider();

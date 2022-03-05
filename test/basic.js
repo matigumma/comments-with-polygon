@@ -28,5 +28,3 @@ describe("Comments", function () {
     expect(await comments.getComments("my-second-blog-post")).to.be.lengthOf(1);
   });
 });
-
-
